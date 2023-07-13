@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8" />
@@ -40,7 +40,7 @@
             <span class="material-symbols-outlined icons">
               mail
             </span>
-            <input type="text" class="section__input" id="input__email" placeholder="Enter your email...">
+            <input type="email" class="section__input" id="input__email" placeholder="Enter your email...">
           </div>
           <div class="section__inputs">
             <label for="input__phone" class="section__label">Phone</label>
@@ -59,7 +59,7 @@
             <span class="material-symbols-outlined icons">
               account_circle
             </span>
-            <input type="text" class="section__input" id="input__email" placeholder="Your full name...">
+            <input type="text" class="section__input" id="input__name" placeholder="Your full name...">
           </div>
           <div class="section__inputs">
             <label for="input__address" class="section__label">Address</label>
@@ -84,6 +84,8 @@
               <select type="text" class="section__input section__input--small" id="select__country">
                 <option value="">Your country...</option>
                 <option value="1">Colombia</option>
+                <option value="2">Panama</option>
+                <option value="3">Argentina</option>
               </select>
             </div>
             <div class="section__inputs">
@@ -95,13 +97,13 @@
             </div>
           </div>
           <div class="section__inputs section__inputs_save">
-            <input type="checkbox">
+            <input type="checkbox" id="input__check">
             <p>Save this information for next time</p>
           </div>
         </div>
       </div>
       <div class="section__submit">
-        <button type="submit">Continue</button>
+        <button type="submit" onclick="Submit()">Continue</button>
       </div>
     </section>
 
@@ -120,13 +122,13 @@
               </div>
 
               <div class="aside__amount">
-                <div class="aside__amount_button">
+                <div class="aside__amount_button span__remove" onclick="Restar(this)">
                   <span class="material-symbols-outlined">
                     remove
                   </span>
                 </div>
-                <p>1</p>
-                <div class="aside__amount_button">
+                <p class="amount__value">1</p>
+                <div class="aside__amount_button span__add" onclick="Sumar(this)">
                   <span class="material-symbols-outlined">
                     add
                   </span>
@@ -146,13 +148,13 @@
               </div>
 
               <div class="aside__amount">
-                <div class="aside__amount_button">
+                <div class="aside__amount_button span__remove" onclick="Restar(this)">
                   <span class="material-symbols-outlined">
                     remove
                   </span>
                 </div>
-                <p>1</p>
-                <div class="aside__amount_button">
+                <p class="amount__value">1</p>
+                <div class="aside__amount_button span__add" onclick="Sumar(this)">
                   <span class="material-symbols-outlined">
                     add
                   </span>
@@ -180,5 +182,6 @@
     </div>
   </footer>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="script.js"></script>
 </html>

@@ -15,7 +15,7 @@ body {
 
 .body__title {
     margin: 0 0 3rem 0;
-    margin: 3rem 0 3rem 20rem;
+    margin: 3rem 0 3rem 30rem;
 }
 
 .body__title > h2 {
@@ -28,8 +28,8 @@ body {
 main {
     display: grid;
     grid-template-columns: repeat(2, 29rem);
-    margin: 3rem 0 3rem 20rem;
-    gap: 20rem;
+    margin: 3rem 0 3rem 30rem;
+    gap: 10rem;
 }
 
 .section__title {
@@ -116,6 +116,7 @@ main {
     font-size: 1rem;
     font-weight: 600;
     line-height: normal;
+    cursor: pointer;
 }
 
 .section__inputs_save > input {
@@ -123,6 +124,7 @@ main {
     height: 1.3125rem;
     flex-shrink: 0;
     margin-right: .2rem;
+    cursor: pointer;
 }
 
 .section__inputs_save > p{
@@ -270,4 +272,8 @@ footer {
     text-align: center;
     margin-top: 10rem;
     opacity: .5;
+}
+
+.invalido {
+    border: 1px solid #f00;
 }
