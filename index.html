@@ -1,95 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
 
-    <link rel="icon" href="devchallenges.png" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
+  <link rel="icon" href="devchallenges.png" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
 
-    <title>Devchallenges</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
+  <!--Style-->
+  <link rel="stylesheet" href="style.css">
 
-      ul {
-        padding-left: 24px;
-      }
+  <title>Checkout Page</title>
+</head>
 
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+<body>
+  <div class="body__title">
+    <h2>Checkout</h2>
+  </div>
+  <main>
+    <section>
+      <div class="section__contact">
+        <h3 class="section__contact_title">Contact infomation</h3>
+        <div class="section__contact_input">
+          <div class="section__contact_email">
+            <label for="input__email" class="section__contact_label">Email</label>
+            <input type="text" class="section__contact_input_email" id="input__email" placeholder="Enter your email...">
+          </div>
+          <div class="section__contact_phone">
+            <label for="input__phone" class="section__contact_label">Phone</label>
+            <input type="text" class="section__contact_input_email" id="input__phone" placeholder="Enter your phone...">
+          </div>
+        </div>
       </div>
+      <div class="section__address">
+        <h3 class="section__address_title">Shipping address</h3>
+        <div class="section__address_input">
+          <div class="section__address_name">
+            <label for="input__name" class="section__address_label">Full name</label>
+            <input type="text" class="section__address_input_name" id="input__email" placeholder="Your full name...">
+          </div>
+          <div class="section__address_address">
+            <label for="input__address" class="section__address_label">Address</label>
+            <input type="text" class="section__address_input_address" id="input__address" placeholder="Your address...">
+          </div>
+          <div class="section__address_city">
+            <label for="input__city" class="section__city_label">City</label>
+            <input type="text" class="section__address_input_city" id="input__city" placeholder="Your city...">
+          </div>
+          <div class="section__address_country">
+            <label for="select__country" class="section__country_label">Country</label>
+            <select type="text" class="section__address_input_country" id="select__country">
+              <option value="">Your country...</option>
+              <option value="1">Colombia</option>
+            </select>
+          </div>
+          <div class="section__address_postalcode">
+            <label for="input__postalcode" class="section__postalcode_label">Postal code</label>
+            <input type="text" class="section__address_input_postalcode" id="input__postalcode" placeholder="Your postalcode...">
+          </div>
+          <div class="section__address_saveinformation">
+            <input type="checkbox">
+            <p>Save this information for next time</p>
+          </div>
+        </div>
+      </div>
+      <div class="section__submit">
+        <button type="submit">Continue</button>
+      </div>
+    </section>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+    <aside>
+      <div class="aside__resume">
+        <div class="aside__products">
+          <div class="aside__images">
+
+          </div>
+          <div class="aside__images">
+            
+          </div>
+          <div class="aside_product_info">
+            <p class="aside_product_title">Vintage Backbag</p>
+            <p class="aside_product_price">$54.99</p>
+            <p class="aside_product_price aside_product_price--overline">$94.99</p>
+          </div>
+          <div class="aside__amount">
+            <div class="aside__amount_minus">-</div>
+            <p>1</p>
+            <div class="aside__amount_plus">+</div>
+          </div>
+          <div class="aside_product_info">
+            <p class="aside_product_title">Levi Shoes</p>
+            <p class="aside_product_price">$74.99</p>
+            <p class="aside_product_price aside_product_price--overline">$124.99</p>
+          </div>
+          <div class="aside__amount">
+            <div class="aside__amount_minus">-</div>
+            <p>1</p>
+            <div class="aside__amount_plus">+</div>
+          </div>
+        </div>
+        <div class="aside__cost">
+          <div class="aside__products_cost">
+            <p class="aside__products_cost_title">Shipping</p>
+            <p class="aside__products_cost_total">$19</p>
+          </div>
+          <div class="aside__products_cost">
+            <p class="aside__products_cost_title">Total</p>
+            <p class="aside__products_cost_total">$148.98</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+  <footer>
+    <div class="footer__credits">
+      <p>created by <b>JulianGT-2001</b> - devChallenges.io</p>
     </div>
-  </body>
+  </footer>
+</body>
+
 </html>
