@@ -39,10 +39,3 @@ function Submit(){
         swal.fire("¡Correcto!", "Todos los campos fueron diligenciados", "success");
     }
 }
-
-// Swal.fire({
-//     title: 'Error!',
-//     text: 'Do you want to continue',
-//     icon: 'error',
-//     confirmButtonText: 'Cool'
-//   })
