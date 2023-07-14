@@ -35,7 +35,8 @@
 
 ## Previsualizacion
 
-![screenshot]()
+![screenshot](https://raw.githubusercontent.com/JulianGT-2001/Checkout_Page_Challenge/main/Pagina2.png)
+![screenshot](https://raw.githubusercontent.com/JulianGT-2001/Checkout_Page_Challenge/main/Pagina1.png)
 
 La experiencia de este reto ha sido satisfactoria, he recordado conceptos basicos de HTML y CSS y Javascript y he aplicado herramientas que no había usado antes como los son los media queries para realizar está pagina responsiva y también he aplicado conceptos de Javascript para lograr la funcionalidad del botón de hamburguesa una vez la página es responsive.
 
