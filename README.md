@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Desafio pagina Galeria</h1>
+<h1 align="center">Desafio Pagina Checkout</h1>
 
 <div align="center">
    Solucion del desafio de  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://juliangt-2001.github.io/Gallery_Page_Challenge/">
+    <a href="">
       Demo
     </a>
     <span> | </span>
-    <a href="https://juliangt-2001.github.io/Gallery_Page_Challenge/">
+    <a href="">
       Solucion
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
+    <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
       Desafio
     </a>
   </h3>
@@ -35,16 +35,15 @@
 
 ## Previsualizacion
 
-![screenshot](https://raw.githubusercontent.com/JulianGT-2001/Gallery_Page_Challenge/main/Captura_pantalla_1.png)
+![screenshot]()
 
-![screenshot](https://raw.githubusercontent.com/JulianGT-2001/Gallery_Page_Challenge/main/Captura_pantalla_2.png)
-
-La experiencia de este reto ha sido satisfactoria, he recordado conceptos basicos de HTML y CSS y he aplicado herramientas que no había usado antes como los son los media queries para realizar está pagina responsiva.
+La experiencia de este reto ha sido satisfactoria, he recordado conceptos basicos de HTML y CSS y Javascript y he aplicado herramientas que no había usado antes como los son los media queries para realizar está pagina responsiva y también he aplicado conceptos de Javascript para lograr la funcionalidad del botón de hamburguesa una vez la página es responsive.
 
 ### Construido con
 
 - HTML
 - CSS
+- Javascript
 
 ## Caracteristicas
 
